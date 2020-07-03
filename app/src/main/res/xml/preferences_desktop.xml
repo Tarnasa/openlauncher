@@ -86,6 +86,13 @@
             app:alphaSlider="true" />
 
         <com.flask.colorpicker.ColorPickerPreference
+            android:defaultValue="@color/white"
+            android:key="@string/pref_key__desktop_label_color"
+            android:title="@string/pref_title__desktop_label_color"
+            app:lightnessSlider="true"
+            app:alphaSlider="true" />
+
+        <com.flask.colorpicker.ColorPickerPreference
             android:defaultValue="@color/transparent"
             android:key="@string/pref_key__desktop_inset_color"
             android:title="@string/pref_title__desktop_inset_color"

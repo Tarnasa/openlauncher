@@ -44,7 +44,7 @@ public class ItemViewFactory {
                 case DESKTOP:
                 default:
                     builder.setLabelVisibility(Setup.appSettings().getDesktopShowLabel());
-                    builder.setTextColor(Color.WHITE);
+                    builder.setTextColor(Setup.appSettings().getDesktopLabelColor());
                     break;
             }
             switch (item.getType()) {

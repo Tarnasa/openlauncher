@@ -113,6 +113,10 @@ public class AppSettings extends SharedPreferencesPropertyBackend {
         return getInt(R.string.pref_key__desktop_background_color, Color.TRANSPARENT);
     }
 
+    public int getDesktopLabelColor() {
+        return getInt(R.string.pref_key__desktop_label_color, Color.WHITE);
+    }
+
     public int getDesktopInsetColor() {
         return getInt(R.string.pref_key__desktop_inset_color, Color.TRANSPARENT);
     }
